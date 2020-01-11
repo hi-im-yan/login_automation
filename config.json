@@ -1,0 +1,5 @@
+{
+  "facebook": { "un": "example@hotmail.com", "pw": "password" },
+  "github": { "un": "example@gmail.com", "pw": "password" },
+  "discord": { "un": "example@gmail.com", "pw": "password" }
+}
