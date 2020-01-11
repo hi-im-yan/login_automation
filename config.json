@@ -1,12 +1,5 @@
 {
-  "facebook": { "un": "yanajiki2010@hotmail.com", "pw": "hotmail.com" },
-  "github": { "un": "yanajiki2010@hotmail.com", "pw": "Left_4_dead*" },
-  "iqOption": { "un": "yanajiki2010@hotmail.com", "pw": "hotmail.com" },
-  "discord": { "un": "yanajiki2010@hotmail.com", "pw": "flyff4000" }
+  "facebook": { "un": "example@hotmail.com", "pw": "password" },
+  "github": { "un": "example@gmail.com", "pw": "password" },
+  "discord": { "un": "example@gmail.com", "pw": "password" }
 }
-
-// {
-//   "facebook": { "un": "example@hotmail.com", "pw": "password" },
-//   "github": { "un": "example@gmail.com", "pw": "password" },
-//   "discord": { "un": "example@gmail.com", "pw": "password" }
-// }
