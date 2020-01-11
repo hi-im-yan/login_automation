@@ -1,6 +1,5 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
-import time
 import json
 
 with open("C:\Projetos\Python\Selenium\\login_automation\config.json") as config:
@@ -88,3 +87,8 @@ except:
 #     tab += 1
 # except:
 #     print("Failed to log on Aplication")
+
+# A ideia de abrir a próxima aba logo que abre a atual é para que enquanto faz o carregamento da próxima aba,
+# a aba anterior esteja sendo preenchida com os dados de login.
+# Desse modo quando for fazer o login na proxima aba não será preciso esperar o carregamento do formulário de login,
+# pois já estará carregado. Isso evita o uso de time.sleep() e segundos adicionais na execução.
