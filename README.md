@@ -11,3 +11,5 @@ Caso precise logar em algum outro site, você terá que inspecionar os elementos
 O  template de credenciais e login estão representados no código para facilitar a automação.
 
 OBS: O código pode depender um pouco da sua internet. Animações do site podem causar problemas na hora de realizar o login. Então utilize a função time.sleep(2) para tudo que utilizar alguma transição/animação antes de aparecer a tela de login.
+
+OBS2: O navegador chromium que é usado por esse código não abre no youtube. Alguma coisa a ver com a política de segurança da google.
