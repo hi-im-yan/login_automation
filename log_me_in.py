@@ -56,6 +56,8 @@ try:
 except:
     print("Failed to log on github")
 
+
+
 #login discord
 try:
     driver.execute_script('''window.open("https://discordapp.com/login","_blank");''')
@@ -70,6 +72,19 @@ try:
 except:
     print("Failed to log na Discord")
 
+
+try:
+    driver.execute_script('''window.open("https://iqoption.com/en/login","_blank");''')
+    driver.switch_to.window(driver.window_handles[tab])
+    time.sleep(2)
+    driver.find_element_by_name("email").send_keys(credential['iqOption']['un'])
+    driver.find_element_by_name("password").send_keys(credential['iqOption']['pw'])
+    driver.find_element_by_xpath("/html/body/div[3]/div/div[1]/div/div/form/button[1]").click()
+    time.sleep(1)
+    print("IQOption Logged")
+    tab += 1
+except:
+    print("Falha ao logar na iqOption")
 #template
 # try:
 #     driver.execute_script('''window.open("login_url","_blank");''')
